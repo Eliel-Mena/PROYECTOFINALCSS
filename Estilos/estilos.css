@@ -12,7 +12,7 @@ body{
   height: 80px;
   background-color: #5b7989;
   border-radius:10px 10px 0px 0px ;
-  width: 900px;
+  width: 100%;
 }
 .MenuPrincipal h1{
     color:white;
@@ -119,6 +119,9 @@ footer{
   flex-direction: column;
   text-align: center;
   }
+  #img1,#img2,#img3,#img4,#img5,#img6{
+    width: 96%;
+  }
 }
 #foto1, #foto2{
 width: 100%;
@@ -136,8 +139,6 @@ transform: rotate(10deg);
   animation-direction: reverse;
   box-shadow: 2px 2px #82c3a6;
   }
-
-
 
 .imagennm,.imagennm2{
   background-color: #d5c75f;
